@@ -7,5 +7,21 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "electron-myapp": {
+      "tags": []
+    },
+    "web-myapp": {
+      "tags": []
+    },
+    "web-myapp-e2e": {
+      "tags": []
+    }
+  }
 }

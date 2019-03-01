@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/libs/**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/libs/**/*.d.ts": {
+      "when": "$(basename).ts"
+    },
+    "**/xplat/**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/xplat/**/*.d.ts": {
+      "when": "$(basename).ts"
+    }
+  }
+}

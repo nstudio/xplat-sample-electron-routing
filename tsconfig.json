@@ -16,6 +16,21 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@mycompany/*": [
+        "libs/*"
+      ],
+      "@mycompany/electron": [
+        "xplat/electron/index.ts"
+      ],
+      "@mycompany/electron/*": [
+        "xplat/electron/*"
+      ],
+      "@mycompany/web": [
+        "xplat/web/index.ts"
+      ],
+      "@mycompany/web/*": [
+        "xplat/web/*"
+      ]
     }
   },
   "exclude": [
